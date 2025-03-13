@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.back {
+    align-self: flex-start;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-decoration: none; 
+}
+
+.search-bar {
+    display: block; 
+    margin: 0 auto; 
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-item {
+    width: 150px;
+    text-align: center;
+}
+
+.game-item a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Color del texto normal */
+}
+
+.game-item a:hover {
+    color: rgb(36, 100, 71); /* Cambia el color al pasar el cursor */
+}
+
+.game-item img {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.price {
+    font-weight: bold;
+}
+
